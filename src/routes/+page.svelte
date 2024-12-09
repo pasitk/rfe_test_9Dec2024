@@ -60,15 +60,15 @@
         });
 
         svg.append("text")
-        .text("Russia launches more air/drone strikes on Ukraine")
-        .attr("style","font-size:20px; font-weight:900; font-family:Arial")
-        .attr("x", 0)
+        .text("Russia's air/drone strikes on Ukraine become more intense in late 2024")
+        .attr("style","font-size:18px; font-weight:900; font-family:Arial")
+        .attr("x", -25)
         .attr("y", -20);
 
         svg.append("text")
         .text("Source: Armed Conflict Location and Event Data (ACLED) | By Pasit Kongkunakornkul")
         .attr("style","font-size:12px; font-family:Arial")
-        .attr("x", 0)
+        .attr("x", -25)
         .attr("y", height+40);
     })
 
